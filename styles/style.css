@@ -13,4 +13,17 @@ body {
 
 /**
  * Add your styles below
+ 
  */
+ .card {
+	margin: 1rem auto;
+	padding: 0.5rem;
+	text-align: center;
+  }
+  
+  @media (min-width: "900px") {
+	.col {
+	  display: flex;
+	  flex-direction: row;
+	}
+  }
